@@ -22,7 +22,13 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : "0"
+            "Encode" : "0",
+            "Math::BigInt" : "0",
+            "POSIX" : "0",
+            "Scalar::Util" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0",
+            "Test::NoWarnings" : "0"
          }
       },
       "configure" : {
@@ -32,10 +38,23 @@
       },
       "runtime" : {
          "requires" : {
+            "Encode" : "0",
+            "Math::BigInt" : "0",
+            "POSIX" : "0",
+            "Scalar::Util" : "0",
+            "Test::Exception" : "0",
+            "Test::More" : "0",
+            "Test::NoWarnings" : "0",
             "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Format-Util"
+      },
+      "homepage" : "https://github.com/binary-com/perl-Format-Util"
+   },
+   "version" : "0.02"
 }
